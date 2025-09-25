@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "audio-primary": "hsl(var(--audio-primary))",
+        "audio-secondary": "hsl(var(--audio-secondary))",
+      },
+      backgroundImage: {
+        "hero-gradient": "var(--hero-gradient)",
+        "feature-gradient": "var(--feature-gradient)", 
+        "card-gradient": "var(--card-gradient)",
+      },
+      boxShadow: {
+        "hero": "var(--shadow-hero)",
+        "card": "var(--shadow-card)",
+        "glow": "var(--shadow-glow)",
       },
       borderRadius: {
         lg: "var(--radius)",
