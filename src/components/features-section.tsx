@@ -11,38 +11,38 @@ import {
   MessageCircle,
   BarChart3
 } from 'lucide-react';
-import supportAgent from '@/assets/support-agent.jpg';
+import supportAgent from '@/assets/ecommerce-support.jpg';
 
 const features = [
   {
     icon: Brain,
-    title: 'Natural Language Processing',
-    description: 'Advanced AI that understands context, emotions, and complex customer queries with human-like comprehension.'
+    title: 'Shopify Order Management',
+    description: 'Automatically handle order inquiries, track shipments, process returns, and update customers on their Shopify orders in real-time.'
   },
   {
     icon: Clock,
-    title: '24/7 Availability',
-    description: 'Never miss a customer call. Our voice agent works around the clock to provide instant support.'
+    title: '24/7 Sales Assistant',
+    description: 'Never lose a sale. Our AI answers product questions, handles checkouts, and recovers abandoned carts around the clock.'
   },
   {
     icon: Globe,
-    title: 'Multi-Language Support',
-    description: 'Communicate with customers in 50+ languages with native-level fluency and cultural understanding.'
+    title: 'Multi-Store Integration',
+    description: 'Connect multiple Shopify stores, WooCommerce, Magento, and other ecommerce platforms with unified voice support.'
   },
   {
     icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-level encryption and compliance with GDPR, HIPAA, and SOX regulations for complete data protection.'
+    title: 'PCI Compliance & Security',
+    description: 'Bank-level encryption with full PCI compliance for secure payment processing and customer data protection.'
   },
   {
     icon: TrendingUp,
-    title: 'Analytics & Insights',
-    description: 'Deep analytics on customer interactions, sentiment analysis, and performance metrics to optimize your service.'
+    title: 'Sales Analytics & Insights',
+    description: 'Track conversion rates, average order value, and customer lifetime value with detailed ecommerce analytics and reporting.'
   },
   {
     icon: Users,
-    title: 'Seamless Integration',
-    description: 'Easy integration with your existing CRM, helpdesk, and communication tools. Setup in minutes, not months.'
+    title: 'Shopify App Integration',
+    description: 'One-click Shopify app installation. Seamlessly integrates with your store, inventory, and customer data in minutes.'
   }
 ];
 
@@ -53,12 +53,12 @@ export const FeaturesSection: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Why Choose Our
-            <span className="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text"> Voice Agent</span>
+            Boost Your Shopify Store with
+            <span className="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text"> AI Voice Commerce</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Powered by cutting-edge AI technology, our voice agent delivers exceptional customer experiences 
-            that drive satisfaction and business growth.
+            Transform your ecommerce business with AI that understands products, processes orders, 
+            and turns every call into a potential sale.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export const FeaturesSection: React.FC = () => {
           <div className="relative">
             <img 
               src={supportAgent}
-              alt="Professional customer support with AI voice technology"
+              alt="Ecommerce customer support with AI voice technology"
               className="rounded-2xl shadow-hero w-full"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl" />
@@ -98,25 +98,25 @@ export const FeaturesSection: React.FC = () => {
           
           <div>
             <h3 className="text-3xl font-bold text-foreground mb-6">
-              Transform Your Customer Experience
+              Turn Every Call Into Revenue
             </h3>
             <p className="text-muted-foreground mb-8">
-              Our AI voice agent doesn't just answer calls—it creates meaningful conversations 
-              that build customer relationships and drive business success.
+              Our AI doesn't just provide support—it actively sells your products, processes orders, 
+              and recovers lost sales through intelligent voice commerce.
             </p>
             
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-accent rounded-full" />
-                <span className="text-foreground">Instant response times under 2 seconds</span>
+                <span className="text-foreground">Process orders and payments via voice</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-accent rounded-full" />
-                <span className="text-foreground">Handle unlimited concurrent conversations</span>
+                <span className="text-foreground">Real-time Shopify inventory and pricing</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-accent rounded-full" />
-                <span className="text-foreground">Learn and improve with every interaction</span>
+                <span className="text-foreground">Abandoned cart recovery conversations</span>
               </div>
             </div>
 
@@ -124,18 +124,18 @@ export const FeaturesSection: React.FC = () => {
             <div className="mt-8 grid grid-cols-3 gap-6">
               <div className="text-center p-4 bg-feature-gradient rounded-xl">
                 <Headphones className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-2xl font-bold text-foreground">10K+</div>
-                <div className="text-sm text-muted-foreground">Calls Handled</div>
+                <div className="text-2xl font-bold text-foreground">50K+</div>
+                <div className="text-sm text-muted-foreground">Orders Processed</div>
               </div>
               <div className="text-center p-4 bg-feature-gradient rounded-xl">
                 <MessageCircle className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-2xl font-bold text-foreground">98%</div>
-                <div className="text-sm text-muted-foreground">Satisfaction Rate</div>
+                <div className="text-2xl font-bold text-foreground">$2.1M</div>
+                <div className="text-sm text-muted-foreground">Revenue Generated</div>
               </div>
               <div className="text-center p-4 bg-feature-gradient rounded-xl">
                 <BarChart3 className="w-8 h-8 text-primary mx-auto mb-2" />
-                <div className="text-2xl font-bold text-foreground">65%</div>
-                <div className="text-sm text-muted-foreground">Faster Resolution</div>
+                <div className="text-2xl font-bold text-foreground">200+</div>
+                <div className="text-sm text-muted-foreground">Shopify Stores</div>
               </div>
             </div>
           </div>

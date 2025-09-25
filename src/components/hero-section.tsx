@@ -25,22 +25,22 @@ export const HeroSection: React.FC = () => {
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Zap className="w-4 h-4 text-accent" />
                 <span className="text-primary-foreground/90 text-sm font-medium">
-                  AI-Powered Customer Support
+                  AI-Powered Shopify & Ecommerce Support
                 </span>
               </div>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
-              Revolutionary
+              AI Voice Agent for
               <span className="block text-transparent bg-gradient-to-r from-accent to-primary-foreground bg-clip-text">
-                Voice Agent
+                Shopify Stores
               </span>
-              for Your Business
+              & Ecommerce
             </h1>
             
             <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl">
-              Transform your customer support with our AI voice agent that understands, 
-              responds, and resolves issues 24/7 with human-like conversation.
+              Boost your Shopify store's sales with our AI voice agent that handles orders, 
+              tracks shipments, answers product questions, and converts visitors 24/7.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -57,16 +57,16 @@ export const HeroSection: React.FC = () => {
             {/* Stats */}
             <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">99%</div>
-                <div className="text-sm text-primary-foreground/70">Accuracy Rate</div>
+                <div className="text-3xl font-bold text-accent">3x</div>
+                <div className="text-sm text-primary-foreground/70">Higher Conversion</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent">24/7</div>
-                <div className="text-sm text-primary-foreground/70">Availability</div>
+                <div className="text-sm text-primary-foreground/70">Sales Support</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">50%</div>
-                <div className="text-sm text-primary-foreground/70">Cost Reduction</div>
+                <div className="text-3xl font-bold text-accent">85%</div>
+                <div className="text-sm text-primary-foreground/70">Cart Recovery</div>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const HeroSection: React.FC = () => {
               
               <div className="flex items-center justify-center gap-2 text-primary-foreground/70">
                 <Mic className="w-4 h-4" />
-                <span className="text-sm">Click to hear our AI in action</span>
+                <span className="text-sm">Hear how we handle Shopify orders</span>
               </div>
             </div>
           </div>

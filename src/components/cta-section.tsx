@@ -9,12 +9,12 @@ export const CTASection: React.FC = () => {
         <div className="mb-8">
           <Phone className="w-16 h-16 text-accent mx-auto mb-6" />
           <h2 className="text-3xl md:text-5xl font-bold text-primary-foreground mb-6">
-            Ready to Transform Your
-            <span className="block text-accent">Customer Support?</span>
+            Ready to Boost Your
+            <span className="block text-accent">Shopify Sales?</span>
           </h2>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-            Join thousands of businesses already using our AI voice agent to deliver 
-            exceptional customer experiences and drive growth.
+            Join 200+ Shopify stores already using Waveify to increase conversions, 
+            recover abandoned carts, and provide 24/7 voice commerce.
           </p>
         </div>
 
@@ -47,12 +47,17 @@ export const CTASection: React.FC = () => {
 
         {/* Trust Indicators */}
         <div className="mt-12 text-primary-foreground/70 text-sm">
-          <p>Trusted by 500+ companies worldwide</p>
+          <p>Trusted by 200+ Shopify stores and growing</p>
           <div className="flex justify-center items-center gap-8 mt-4">
-            <div className="w-12 h-8 bg-white/20 rounded"></div>
-            <div className="w-12 h-8 bg-white/20 rounded"></div>
-            <div className="w-12 h-8 bg-white/20 rounded"></div>
-            <div className="w-12 h-8 bg-white/20 rounded"></div>
+            <div className="w-20 h-8 bg-white/20 rounded flex items-center justify-center text-xs font-medium">
+              Shopify
+            </div>
+            <div className="w-20 h-8 bg-white/20 rounded flex items-center justify-center text-xs font-medium">
+              Plus
+            </div>
+            <div className="w-20 h-8 bg-white/20 rounded flex items-center justify-center text-xs font-medium">
+              Ready
+            </div>
           </div>
         </div>
       </div>
