@@ -2,13 +2,13 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { AudioPlayer } from '@/components/ui/audio-player';
 import { ArrowRight, Mic, MessageSquare, Zap } from 'lucide-react';
-import heroImage from '@/assets/hero-image.jpg';
+import heroImage from '@/assets/ai3.jpg';
 
 export const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-50">
         <img 
           src={heroImage} 
           alt="AI Voice Agent Technology"
@@ -33,9 +33,9 @@ export const HeroSection: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
               AI Voice Agent for
               <span className="block text-transparent bg-gradient-to-r from-accent to-primary-foreground bg-clip-text">
-                Shopify Stores
+                Ecommerce Stores
               </span>
-              & Ecommerce
+              & Shopify
             </h1>
             
             <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl">

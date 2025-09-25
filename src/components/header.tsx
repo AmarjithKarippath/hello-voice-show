@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Waves, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
+import logo from '@/assets/logo.png';
+
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,12 +14,24 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 p-2 bg-hero-gradient rounded-xl shadow-glow">
-              <Waves className="w-6 h-6 text-white" />
+            {/* <div className="flex items-center gap-2 p-2 bg-hero-gradient rounded-xl shadow-glow"> */}
+
+            <div >
+              {/* <Waves className="w-6 h-6 text-white" /> */}
+
+                <img 
+                src={logo} 
+                alt="AI Voice Agent Technology"
+                className="w-12 h-12"
+              />
+
             </div>
             <span className="text-2xl font-bold text-foreground">
-              Wave<span className="text-accent">ify</span>
+              Waveify<span className="text-accent"></span>
             </span>
+            {/* <span className="text-2xl font-bold text-foreground">
+              Waveify<span className="text-accent"></span>
+            </span> */}
           </div>
 
           {/* Desktop Navigation */}
