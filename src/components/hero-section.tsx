@@ -85,7 +85,7 @@ export const HeroSection: React.FC = () => {
               
               <div className="flex items-center justify-center gap-2 text-primary-foreground/70">
                 {/* <Mic className="w-6 h-4" /> */}
-                <span className="text-md">Quick Demo: Hear how we handle e-commerce shop enduser</span>
+                <span className="text-md">Hear how we handle e-commerce shop enduser</span>
               </div>
             </div>
           </div>
