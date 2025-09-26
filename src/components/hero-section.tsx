@@ -4,6 +4,8 @@ import { AudioPlayer } from '@/components/ui/audio-player';
 import { ArrowRight, Mic, MessageSquare, Zap } from 'lucide-react';
 import heroImage from '@/assets/ai3.jpg';
 
+import Player from '../components/audioPlayer';
+
 export const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient">
@@ -74,14 +76,16 @@ export const HeroSection: React.FC = () => {
           {/* Right Column - Audio Player */}
           <div className="flex justify-center">
             <div className="w-full max-w-md">
-              <AudioPlayer 
+              {/* <AudioPlayer 
                 title="Experience Our Voice Agent"
                 className="mb-6"
-              />
+              /> */}
+
+              <Player />             
               
               <div className="flex items-center justify-center gap-2 text-primary-foreground/70">
-                <Mic className="w-4 h-4" />
-                <span className="text-sm">Hear how we handle Shopify orders</span>
+                {/* <Mic className="w-6 h-4" /> */}
+                <span className="text-md">Quick Demo: Hear how we handle e-commerce shop enduser</span>
               </div>
             </div>
           </div>
